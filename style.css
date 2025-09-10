@@ -26,7 +26,7 @@
 .order li a{
     text-decoration: none;
     color: #000000;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bolder; 
 }
 .order-links{
@@ -42,6 +42,7 @@
 /* footer */
 footer{
     padding: 0 10%;
+    height: 15vh;
 }
 .div-footer{
     height: 10vh;
@@ -129,6 +130,69 @@ footer{
 .button a{
     color: #000000;
     text-decoration: none;
+}
+/* page CV */
+.CV_main{
+    justify-content: space-around;
+    height: 240vh;
+    padding: 0 11%;
+    margin-bottom: 3%;
+}
+.vitae{
+    font-size: 24px;
+    font-weight: bolder;
+}
+/* Formation */
+.CV_main-section1{
+    justify-content: space-between;
+    height: 110vh;
+}
+/* kadea */
+.F0{
+    justify-content: space-between;
+    height: 20vh;
+}
+.Kadea,.unikin,.MESP{
+    justify-content: space-between;
+}
+
+.projet{
+    height: 12vh;
+    justify-content: space-between;
+}
+/* unikin L1 */
+.F1{
+    justify-content: space-between;
+    height: 13vh;
+}
+/* unikin renversement (voir partie kadea pour l'ensemble, Kadea,unikin et Mesp) */
+.F3{
+    justify-content: space-between;
+    height: 10vh;
+}
+/* Stages */
+.CV_main-section2{
+    justify-content: space-between;
+    height: 50vh;
+}
+/* formation1 et formation2 stage */
+.Stage{
+    justify-content: space-between;
+    height: 20vh;
+}
+.cours-stage{
+    justify-content: space-between;
+    height: 10vh;
+}
+/* Compétences */
+.CV_main-section3{
+    justify-content: space-between;
+    height: 20vh;
+}
+/* Langue */
+.CV_main-section4{
+    justify-content: space-between;
+    height: 13vh;
 }
 /* petit écran */
 @media screen and (max-width:767px){
@@ -220,6 +284,70 @@ footer{
     .Accueil_présentation-bouton{
         display: none;
     }
+    /* page CV */
+    .CV_main{
+        height: 380vh;
+    }
+    .vitae{
+        text-align: center;
+    }
+    /* Formation */
+    .CV_main-section1{
+        height: 230vh;
+    }
+    /* kadea */
+    .F0{
+        height: 50vh;
+    }
+    .Kadea{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        height: 20vh;
+    }
+    .projet{
+        height: 25vh;
+    }
+    /* unikin L1 */
+    .F1{
+        height: 50vh ;
+    }
+    .unikin{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        height: 20vh;  
+    }
+    /* unikin renversement */
+    .renversement{
+        height: 23vh;
+    }
+    /* unikin G3 */
+    .F3{
+        height: 40vh;
+    }
+    /* Stages */
+    .CV_main-section2{
+        height: 90vh;
+    }
+    /* formation1 et formation2 stage */
+    .Stage{
+        height: 40vh;
+    }
+    .MESP{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        height: 20vh; 
+    }
+    .cours-stage{
+        justify-content: space-between;
+        height: 15vh;
+    }
+    /* compétences */
+    .CV_main-section3{
+        height: 35vh;
+    }
 }
 /* Tablette */
 @media screen  and (min-width:768px ) and (max-width:1023px) {
@@ -259,5 +387,36 @@ footer{
     }
     .button{
         width: 10vw;
+    }
+    /* Page CV */
+    /* Formation */
+    .CV_main-section1{
+        background-color: blueviolet;
+        justify-content: space-between;
+        height: 130vh;
+    }
+    .F0{
+        background-color: bisque;
+        justify-content: space-between;
+        height: 25vh;
+    }
+    .projet{
+        height: 15vh;
+        justify-content: space-between;
+    }
+    .F1{
+        background-color: cadetblue;
+        justify-content: space-between;
+        height: 20vh;
+    }
+    .F2{
+        background-color: darkgoldenrod;
+        justify-content: space-between;
+        height: 10vh;
+    }
+    .F3{
+        background-color: darkkhaki;
+        justify-content: space-between;
+        height: 15vh;
     }
 }
