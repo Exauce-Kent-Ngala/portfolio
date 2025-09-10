@@ -32,7 +32,7 @@
 .order-links{
     list-style: none;
     justify-content: space-around;
-    width: 30vw;
+    width: 25vw;
     align-items: center;
 }
 .order-links li a{
@@ -72,10 +72,69 @@ footer{
     padding-top: 1%;
     justify-content: flex-end;
 }
+/*Page accueil */
+.Accueil_main{
+    justify-content: space-around;
+    height: 70vh;
+}
+.Accueil_main-section1{
+    align-items: center;
+    justify-content: flex-end;
+    width: 35%;
+    height: 65vh;
+}
+.Accueil_main-section1 img{
+    height: 45vh;
+    width: 25vw;
+    border-radius: 50%;
+}
+.Accueil_main-section2{
+    align-items: center;
+    height: 65vh;
+    width: 55%;
+}
+.Accueil_présentation{
+    justify-content: space-between;
+    height: 45vh;
+}
+.hello{
+    font-size: 55px;
+}
+.Moi{
+    width: 55%;
+    justify-content: space-between;
+    height: 18vh;
+}
+.Accueil_présentation-bouton{
+    list-style: none;
+    width: 45%;
+    height: 12vh;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.b1{
+    background-color: #eea302;
+}
+.b2{
+    background-color: #e13b25;
+}
+.b3{
+    background-color: #80d8da;
+}
+.button{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;
+}
+.button a{
+    color: #000000;
+    text-decoration: none;
+}
 /* petit écran */
 @media screen and (max-width:767px){
+    /* Classes Generales */
     /* header */
-    .Navigation{
+    .Header-navigation{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -124,5 +183,81 @@ footer{
         width: 70vw;
         justify-content: center;
     }
-    
+    /*Page accueil */
+    .Accueil_main{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .Accueil_main-section1{
+        align-items: center;
+        width: 100%;
+        height: 25vh;
+        justify-content: center;
+    }
+    .Accueil_main-section1 img{
+        height: 20vh;
+        width: 30vw;
+        border-radius: 50%;
+    }
+    .Accueil_main-section2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .Accueil_présentation{
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height:30vh ;
+    }
+    .hello{
+        font-size: 45px;
+    }
+    .Moi{
+        text-align: center;
+    }
+    .Accueil_présentation-bouton{
+        display: none;
+    }
+}
+/* Tablette */
+@media screen  and (min-width:768px ) and (max-width:1023px) {
+    /* footer */
+    footer{
+        padding: 0 5%;
+    }
+    .nav-foot{
+        width: 55vw;
+    }
+    .image-reseau{
+        width: 10vw;
+    }
+    /*Page accueil */
+    .Accueil_main{
+        align-items: center;
+    }
+    .Accueil_main-section1{
+        height: 45vh;
+    }
+    .Accueil_main-section1 img{
+        height: 45vh;
+        width: 30vw;
+        border-radius: 50%;
+    }
+    .Accueil_main-section2{
+        height: 45vh;
+    }
+    .Moi{
+        width: 100%;
+        justify-content: space-between;
+        width: 55vw;
+        height: 15vh;
+    }
+    .Accueil_présentation-bouton{
+        width: 65%;
+    }
+    .button{
+        width: 10vw;
+    }
 }
