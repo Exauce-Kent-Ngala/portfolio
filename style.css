@@ -275,6 +275,60 @@ footer{
     width: 10vw;
     border-radius: 50%;
 }
+/* page projet */
+.projets_main{
+   padding: 0 10%;
+}
+.projets{
+    justify-content: space-around;
+    height: 170vh;
+    background-color: blanchedalmond;
+}
+/* les sections */
+.projets_section{
+    justify-content: space-between;
+    background-color: darkolivegreen;
+    height: 40vh;
+}
+/* conteneurs div des sections */
+.projets_div{
+    background-color: dodgerblue;
+    height: 25vh;
+    width: 40%;
+    justify-content: space-around;
+}
+.PDIV{
+    height: 23vh;
+}
+.PDIV1{
+    height: 22vh;
+}
+/* images projets */
+.lien_projet1{
+    background-image: url("images/norman.png");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 40%;
+    border: 2vw solid #dfdfdf;
+}
+.lien_projet2{
+    background-image: url("images/flexbox.png");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 40%;
+    border: 2vw solid #dfdfdf;
+}
+.lien_projet3{
+    background-image: url("images/positionnement.png");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 40%;
+    border: 2vw solid #dfdfdf;
+}
+
 /* petit écran */
 @media screen and (max-width:767px){
     /* Classes Generales */
@@ -485,6 +539,60 @@ footer{
         width: 25vw;
         border-radius: 50%;
     }
+    /* page projet */
+    .projets{
+        height: 260vh;
+    }
+    .projets h2{
+        text-align: center;
+    }
+    /* les sections */
+    .projets_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: darkolivegreen;
+        height: 70vh;
+    }
+    /* conteneurs div des sections */
+    .projets_div{
+        background-color: dodgerblue;
+        text-align: center;
+        height: 75vh;
+        width: 100%;
+    }
+    .PDIV{
+        height: 70vh;
+    }
+    .PDIV1{
+        height: 35vh;
+    }
+ /* images projets */
+ .lien_projet1{
+     background-image: url("images/norman.png");
+     background-size: cover;
+     background-position: center;
+     height: 40vh;
+     width: 100%;
+     border: 2vw solid #dfdfdf;
+ }
+ .lien_projet2{
+     background-image: url("images/flexbox.png");
+     background-size: cover;
+     background-position: center;
+     height: 40vh;
+     width: 100%;
+     border: 2vw solid #dfdfdf;
+ }
+ .lien_projet3{
+     background-image: url("images/positionnement.png");
+     background-size: cover;
+     background-position: center;
+     height: 40vh;
+     width: 100%;
+     border: 2vw solid #dfdfdf;
+ }
+ 
 }
 /* Tablette */
 @media screen  and (min-width:768px ) and (max-width:1023px) {
