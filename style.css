@@ -282,17 +282,14 @@ footer{
 .projets{
     justify-content: space-around;
     height: 170vh;
-    background-color: blanchedalmond;
 }
 /* les sections */
 .projets_section{
     justify-content: space-between;
-    background-color: darkolivegreen;
     height: 40vh;
 }
 /* conteneurs div des sections */
 .projets_div{
-    background-color: dodgerblue;
     height: 25vh;
     width: 40%;
     justify-content: space-around;
@@ -556,7 +553,6 @@ footer{
     }
     /* conteneurs div des sections */
     .projets_div{
-        background-color: dodgerblue;
         text-align: center;
         height: 75vh;
         width: 100%;
@@ -568,31 +564,15 @@ footer{
         height: 35vh;
     }
  /* images projets */
- .lien_projet1{
-     background-image: url("images/norman.png");
-     background-size: cover;
-     background-position: center;
-     height: 40vh;
-     width: 100%;
-     border: 2vw solid #dfdfdf;
- }
- .lien_projet2{
-     background-image: url("images/flexbox.png");
-     background-size: cover;
-     background-position: center;
-     height: 40vh;
-     width: 100%;
-     border: 2vw solid #dfdfdf;
- }
- .lien_projet3{
-     background-image: url("images/positionnement.png");
-     background-size: cover;
-     background-position: center;
-     height: 40vh;
-     width: 100%;
-     border: 2vw solid #dfdfdf;
- }
- 
+    .lien_projet1{
+        width: 100%;
+    }
+    .lien_projet2{
+        width: 100%;
+    }
+    .lien_projet3{
+        width: 100%;
+    }
 }
 /* Tablette */
 @media screen  and (min-width:768px ) and (max-width:1023px) {
