@@ -55,7 +55,11 @@ footer{
     list-style: none;
     justify-content: space-around;
 }
+.links-footer li{
+    font-weight: bolder;
+}
 .links-footer li a{
+    font-weight: normal;
     text-decoration: none;
     color: #000000;
 }
@@ -114,12 +118,15 @@ footer{
     justify-content: space-between;
 }
 .b1{
+    font-weight: bolder;
     background-color: #eea302;
 }
 .b2{
+    font-weight: bolder;
     background-color: #e13b25;
 }
 .b3{
+    font-weight: bolder;
     background-color: #80d8da;
 }
 .button{
@@ -193,6 +200,80 @@ footer{
 .CV_main-section4{
     justify-content: space-between;
     height: 13vh;
+}
+/* page contact */
+.Contact_main{
+    padding: 0 10%;
+}
+/* cont navigation et formulaire*/
+.cont{
+    height: 110vh;
+    width: 40vw;
+}
+.Contact{
+    height: 45vh;
+    justify-content: space-around;
+}
+.Contact_liens{
+    justify-content: space-around;
+    height: 15vh;
+    list-style: none;
+}
+.Contact_liens-li{
+    font-weight: bolder;
+}
+.Contact_liens li a{
+    text-decoration: none;
+    color: #000;
+}
+/* formulaire */
+.formulaire{
+    height: 110vh;
+    width: 47vw;
+}
+.formulaire_col1{
+    height: 80vh;
+    justify-content: space-around;
+}
+/* formulaire noms et formulaire email */
+.nom{
+    justify-content: space-between;
+}
+.label-nom{
+    justify-content: space-around;
+    height: 10vh;
+}
+.input{
+    border: 2px solid #000;
+    width: 19vw;
+    height: 4vh;
+}
+/* formulaire message */
+.message{
+    height: 30vh;
+    justify-content: space-around;
+}
+.message textarea{
+    border: 2px solid #000;
+    width: 19vw;
+    font-size: 16px;
+    padding: 5%;
+    height: 19vh;
+}
+.Envoyer{
+    justify-content: center;
+    align-items: flex-start;
+    width: 19vw;
+    padding-top: 7%;
+}
+
+.input-envoit{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #eea302;
+    height: 20vh;
+    width: 10vw;
+    border-radius: 50%;
 }
 /* petit écran */
 @media screen and (max-width:767px){
@@ -348,6 +429,62 @@ footer{
     .CV_main-section3{
         height: 35vh;
     }
+    /* page contact */
+   .Contact_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   /* cont navigation et formulaire*/
+    .cont{
+        height: 40vh;
+        width: 70vw;
+        text-align: center;
+    }
+    .Contact{
+        height: 35vh;
+    }
+    .Contact_liens{
+        height: 20vh;
+    }
+    /* formulaire */
+    .formulaire{
+        height: 80vh;
+        width: 70vw;
+    }
+    .formulaire_col1{
+        height: 60vh;
+    }
+    /* formulaire noms et formulaire email */
+
+    .label-nom{
+        width: 30vw;
+    }
+    .input{
+        width: 30vw;
+    }
+    /* formulaire message */
+    .message{
+        height: 24vh;
+        width: 30vw;
+    }
+    .message textarea{
+        width: 30vw;
+        font-size: 16px;
+        padding: 5%;
+        height: 15vh;
+    }
+    .Envoyer{
+        width: 30vw;
+        height: 25vh;
+        padding-top: 15%;
+    }
+    .input-envoit{
+        font-size: 16px;
+        height: 15vh;
+        width: 25vw;
+        border-radius: 50%;
+    }
 }
 /* Tablette */
 @media screen  and (min-width:768px ) and (max-width:1023px) {
@@ -395,6 +532,7 @@ footer{
         justify-content: space-between;
         height: 130vh;
     }
+    /* kadea */
     .F0{
         background-color: bisque;
         justify-content: space-between;
@@ -404,19 +542,38 @@ footer{
         height: 15vh;
         justify-content: space-between;
     }
+    /* unikin L1 */
     .F1{
         background-color: cadetblue;
         justify-content: space-between;
         height: 20vh;
     }
-    .F2{
-        background-color: darkgoldenrod;
-        justify-content: space-between;
-        height: 10vh;
-    }
+    /* unikin G3 */
     .F3{
         background-color: darkkhaki;
         justify-content: space-between;
         height: 15vh;
     }
+    /* page contact */
+    .Contact_main{
+        padding: 0 5%;
+    }
+    /* cont navigation */
+    .cont{
+        width: 45vw;
+    }
+    /* formulaire */
+    /* formulaire message */
+    .Envoyer{
+        padding-top: 15%;
+    }
+    .input-envoit{
+        font-size: 16px;
+        height: 15vh;
+        width: 13vw;
+    }
+
+
+
+
 }
