@@ -277,54 +277,82 @@ footer{
 }
 /* page projet */
 .projets_main{
-   padding: 0 10%;
+    padding: 0 10%;
+    justify-content: space-evenly;
 }
-.projets{
-    justify-content: space-around;
-    height: 170vh;
+.projets-contenaire section{
+    width: 100%;
+    padding-bottom: 5em;
 }
-/* les sections */
-.projets_section{
+.projets_main h2{
+    padding: 2em 0;
+}
+/* section1 */
+.section1{
+    position: relative;
+    align-items: start;
+}
+.section1 h3{
+    padding: 0;
+    position: absolute;
+}
+.manda{
     justify-content: space-between;
-    height: 40vh;
+    width: 100%;
 }
-/* conteneurs div des sections */
-.projets_div{
-    height: 25vh;
-    width: 40%;
-    justify-content: space-around;
+.manda p{
+    padding-top: 3em;
+    width: 50%;
 }
-.PDIV{
-    height: 23vh;
-}
-.PDIV1{
-    height: 22vh;
-}
-/* images projets */
 .lien_projet1{
     background-image: url("images/norman.png");
-    background-size: cover;
     background-position: center;
-    height: 40vh;
-    width: 40%;
-    border: 2vw solid #dfdfdf;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    border: 20px solid #dfdfdf;
 }
+/* section2 */
+.section2{
+    position: relative;
+    align-items: start;
+}
+.section2 h3{
+    padding: 0;
+    position: absolute;
+}
+
 .lien_projet2{
     background-image: url("images/flexbox.png");
-    background-size: cover;
     background-position: center;
-    height: 40vh;
-    width: 40%;
-    border: 2vw solid #dfdfdf;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    border: 20px solid #dfdfdf;
+}
+/* section3 */
+.section3{
+    position: relative;
+    align-items: start;
+}
+.section3 h3{
+    padding: 0;
+    position: absolute;
 }
 .lien_projet3{
     background-image: url("images/positionnement.png");
-    background-size: cover;
     background-position: center;
-    height: 40vh;
-    width: 40%;
-    border: 2vw solid #dfdfdf;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    border: 20px solid #dfdfdf;
 }
+
+
+
+
+
+
 
 /* petit écran */
 @media screen and (max-width:767px){
@@ -537,42 +565,28 @@ footer{
         border-radius: 50%;
     }
     /* page projet */
-    .projets{
-        height: 260vh;
-    }
-    .projets h2{
+    .projets_main h2{
+        padding-top: 2em;
         text-align: center;
     }
-    /* les sections */
-    .projets_section{
+    .manda{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-between;
-        background-color: darkolivegreen;
-        height: 70vh;
+        width: 100%;
+        padding-top: 3em;
     }
-    /* conteneurs div des sections */
-    .projets_div{
-        text-align: center;
-        height: 75vh;
+    .manda p{
+        padding-top: 0;
         width: 100%;
     }
-    .PDIV{
-        height: 70vh;
+    .lien_projet1, .lien_projet2, .lien_projet3{
+        width: auto;
+        height: 200px;
+        margin-bottom: 1em;
     }
-    .PDIV1{
-        height: 35vh;
-    }
- /* images projets */
-    .lien_projet1{
-        width: 100%;
-    }
-    .lien_projet2{
-        width: 100%;
-    }
-    .lien_projet3{
-        width: 100%;
-    }
+
+
 }
 /* Tablette */
 @media screen  and (min-width:768px ) and (max-width:1023px) {
@@ -616,13 +630,11 @@ footer{
     /* Page CV */
     /* Formation */
     .CV_main-section1{
-        background-color: blueviolet;
         justify-content: space-between;
         height: 130vh;
     }
     /* kadea */
     .F0{
-        background-color: bisque;
         justify-content: space-between;
         height: 25vh;
     }
@@ -632,13 +644,11 @@ footer{
     }
     /* unikin L1 */
     .F1{
-        background-color: cadetblue;
         justify-content: space-between;
         height: 20vh;
     }
     /* unikin G3 */
     .F3{
-        background-color: darkkhaki;
         justify-content: space-between;
         height: 15vh;
     }
@@ -660,8 +670,17 @@ footer{
         height: 15vh;
         width: 13vw;
     }
-
-
+    /* page projet */
+    .projets_main{
+        padding: 0 5%;
+    }
+    .manda p{
+        padding-right: 3em;
+    }
+    .lien_projet1, .lien_projet2, .lien_projet3{
+        width: 400px;
+        height: 300px;
+    }
 
 
 }
