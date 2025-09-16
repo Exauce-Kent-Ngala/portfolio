@@ -64,9 +64,9 @@ footer{
     color: #000000;
 }
 .image-reseau{
-    justify-content: space-between;
+    gap: 1em;
     align-items: center;
-    width: 5vw;
+    
 }
 .logo-reseau{
     width: 20px;
@@ -79,43 +79,33 @@ footer{
 }
 /*Page accueil */
 .Accueil_main{
-    justify-content: space-around;
-    height: 70vh;
+    gap: 10%;
+    padding: 4em 10em;
 }
-.Accueil_main-section1{
-    align-items: center;
-    justify-content: flex-end;
-    width: 35%;
-    height: 65vh;
-}
-.Accueil_main-section1 img{
-    height: 45vh;
-    width: 25vw;
+.Accueil_images{
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
 }
-.Accueil_main-section2{
-    align-items: center;
-    height: 65vh;
-    width: 55%;
-}
 .Accueil_présentation{
+    width: 50%;
     justify-content: space-between;
-    height: 45vh;
 }
 .hello{
     font-size: 55px;
 }
 .Moi{
-    width: 55%;
-    justify-content: space-between;
-    height: 18vh;
+    line-height: 25px;
+    gap: 1em;
+    width: 65%;
+}
+.Moi p span{
+    font-weight: bolder;
 }
 .Accueil_présentation-bouton{
     list-style: none;
-    width: 45%;
-    height: 12vh;
-    align-items: flex-end;
     justify-content: space-between;
+    width: 65%;
 }
 .b1{
     font-weight: bolder;
@@ -130,8 +120,8 @@ footer{
     background-color: #80d8da;
 }
 .button{
-    height: 10vh;
-    width: 5vw;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
 }
 .button a{
@@ -140,139 +130,160 @@ footer{
 }
 /* page CV */
 .CV_main{
-    justify-content: space-around;
-    height: 240vh;
     padding: 0 11%;
-    margin-bottom: 3%;
 }
 .vitae{
     font-size: 24px;
     font-weight: bolder;
+    padding: 3em 0;
 }
 /* Formation */
-.CV_main-section1{
-    justify-content: space-between;
-    height: 110vh;
+.formation{
+    font-size: 22px;
+    padding-bottom: 3em ;
 }
 /* kadea */
 .F0{
-    justify-content: space-between;
-    height: 20vh;
+    gap: 2em;
+    padding-bottom: 3em;
 }
 .Kadea,.unikin,.MESP{
     justify-content: space-between;
+    line-height: 25px;
 }
-
 .projet{
-    height: 12vh;
-    justify-content: space-between;
+    gap: 1em;
+}
+.projet ul{
+    line-height: 25px;
+    padding-left: 2em;
 }
 /* unikin L1 */
 .F1{
-    justify-content: space-between;
-    height: 13vh;
+    gap: 2em;
+    padding-bottom: 3em;
+}
+.unikin-memoire{
+    line-height: 25px;
 }
 /* unikin renversement (voir partie kadea pour l'ensemble, Kadea,unikin et Mesp) */
+.renversement{
+    gap: 2em;
+    padding-bottom: 3em;
+}
+
 .F3{
-    justify-content: space-between;
-    height: 10vh;
+    gap: 2em;
+    padding-bottom: 3em;
 }
 /* Stages */
+.stages{
+    padding: 3em 0;
+}
 .CV_main-section2{
     justify-content: space-between;
-    height: 50vh;
 }
 /* formation1 et formation2 stage */
 .Stage{
-    justify-content: space-between;
-    height: 20vh;
+    gap: 2em;
+    padding-bottom: 3em;
 }
 .cours-stage{
-    justify-content: space-between;
-    height: 10vh;
+    gap: 1em;
+}
+.cours-stage ul{
+    line-height: 25px;
+    padding-left: 2em;
 }
 /* Compétences */
+.compétences{
+    padding: 3em 0;
+}
 .CV_main-section3{
-    justify-content: space-between;
-    height: 20vh;
+    padding-bottom: 3em;
+}
+.CV_main-section3 ul{
+    line-height: 25px;
+    padding-left: 2em;
 }
 /* Langue */
+.langues{
+    padding: 3em 0;
+}
 .CV_main-section4{
-    justify-content: space-between;
-    height: 13vh;
+    padding-bottom: 3em;
+}
+.CV_main-section4 ul{
+    line-height: 25px;
+    padding-left: 2em;
 }
 /* page contact */
 .Contact_main{
     padding: 0 10%;
+    justify-content: space-between;
 }
-/* cont navigation et formulaire*/
-.cont{
-    height: 110vh;
-    width: 40vw;
-}
-.Contact{
-    height: 45vh;
-    justify-content: space-around;
+/* contact section */
+.contact-section{
+    padding-top: 5em;
+    gap: 3em;
 }
 .Contact_liens{
-    justify-content: space-around;
-    height: 15vh;
-    list-style: none;
+    gap: 1.5em;
 }
-.Contact_liens-li{
+.Contact_liens div{
+    line-height: 25px;
+}
+.Contact_liens div p{
     font-weight: bolder;
 }
-.Contact_liens li a{
+.Contact_liens div a{
     text-decoration: none;
     color: #000;
 }
 /* formulaire */
 .formulaire{
-    height: 110vh;
-    width: 47vw;
+    padding-top: 5em;
 }
-.formulaire_col1{
-    height: 80vh;
-    justify-content: space-around;
-}
+
 /* formulaire noms et formulaire email */
 .nom{
-    justify-content: space-between;
+    gap: 3em;
 }
 .label-nom{
     justify-content: space-around;
-    height: 10vh;
+    height: 12vh;
 }
 .input{
     border: 2px solid #000;
-    width: 19vw;
-    height: 4vh;
+    width: 15vw;
+    height: 6vh;
 }
 /* formulaire message */
+.noms{
+    gap: 3em;
+    padding: 1em 0 5em 0;
+}
 .message{
-    height: 30vh;
-    justify-content: space-around;
+    gap: 1em;
 }
 .message textarea{
     border: 2px solid #000;
-    width: 19vw;
+    width: 15vw;
     font-size: 16px;
-    padding: 5%;
-    height: 19vh;
+    padding: 1em;
+    height: 20vh;
 }
 .Envoyer{
-    justify-content: center;
-    align-items: flex-start;
-    width: 19vw;
-    padding-top: 7%;
+    width: 15vw;
+    justify-content: end;
 }
 
 .input-envoit{
-    font-size: 20px;
     font-weight: bolder;
+    font-size: 20px;
     background-color: #eea302;
-    height: 20vh;
-    width: 10vw;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 }
 /* page projet */
@@ -301,6 +312,7 @@ footer{
     width: 100%;
 }
 .manda p{
+    line-height: 25px;
     padding-top: 3em;
     width: 50%;
 }
@@ -396,9 +408,6 @@ footer{
         height: 12vh;
         align-items: center;
     }
-    .image-reseau{
-        width: 15vw;
-    }
     .logo-reseau{
         width: 25px;
         height: 25px;
@@ -411,158 +420,77 @@ footer{
     .Accueil_main{
         display: flex;
         flex-direction: column;
-        height: 100vh;
-    }
-    .Accueil_main-section1{
+        padding: 4em 0;
+        text-align: center;
         align-items: center;
-        width: 100%;
-        height: 25vh;
-        justify-content: center;
     }
-    .Accueil_main-section1 img{
-        height: 20vh;
-        width: 30vw;
-        border-radius: 50%;
-    }
-    .Accueil_main-section2{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+    .Accueil_images{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 3em;
     }
     .Accueil_présentation{
-        justify-content: space-between;
-        align-items: center;
-        width: 100vw;
-        height:30vh ;
-    }
-    .hello{
-        font-size: 45px;
+        padding-right: 0;
+        width: 100%;
     }
     .Moi{
-        text-align: center;
+        padding-top: 2em;
+        width: 100%;
     }
     .Accueil_présentation-bouton{
-        display: none;
+        width: 100%;
+        padding: 3em 2em 0;
     }
+        
     /* page CV */
-    .CV_main{
-        height: 380vh;
-    }
     .vitae{
         text-align: center;
     }
     /* Formation */
-    .CV_main-section1{
-        height: 230vh;
-    }
+
     /* kadea */
-    .F0{
-        height: 50vh;
-    }
-    .Kadea{
+    .Kadea,.unikin,.MESP{
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        height: 20vh;
-    }
-    .projet{
-        height: 25vh;
-    }
-    /* unikin L1 */
-    .F1{
-        height: 50vh ;
-    }
-    .unikin{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column-reverse;
-        height: 20vh;  
-    }
-    /* unikin renversement */
-    .renversement{
-        height: 23vh;
-    }
-    /* unikin G3 */
-    .F3{
-        height: 40vh;
-    }
-    /* Stages */
-    .CV_main-section2{
-        height: 90vh;
-    }
-    /* formation1 et formation2 stage */
-    .Stage{
-        height: 40vh;
-    }
-    .MESP{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column-reverse;
-        height: 20vh; 
-    }
-    .cours-stage{
-        justify-content: space-between;
-        height: 15vh;
-    }
-    /* compétences */
-    .CV_main-section3{
-        height: 35vh;
+        flex-direction: column;
+        gap: 0.5em;
+        line-height: 25px;
     }
     /* page contact */
-   .Contact_main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
-   /* cont navigation et formulaire*/
-    .cont{
-        height: 40vh;
-        width: 70vw;
+    .Contact_main{
+        display: flex;
+        flex-direction: column;
+    }
+    /* contact section */
+    .contact-section{
         text-align: center;
-    }
-    .Contact{
-        height: 35vh;
-    }
-    .Contact_liens{
-        height: 20vh;
     }
     /* formulaire */
     .formulaire{
-        height: 80vh;
-        width: 70vw;
+        padding-top: 3em;
     }
-    .formulaire_col1{
-        height: 60vh;
-    }
+    
     /* formulaire noms et formulaire email */
-
-    .label-nom{
-        width: 30vw;
+    .nom{
+        justify-content: space-between;
     }
     .input{
         width: 30vw;
     }
     /* formulaire message */
-    .message{
-        height: 24vh;
-        width: 30vw;
+    .noms{
+        justify-content: space-between;
     }
     .message textarea{
         width: 30vw;
-        font-size: 16px;
-        padding: 5%;
         height: 15vh;
     }
     .Envoyer{
         width: 30vw;
-        height: 25vh;
-        padding-top: 15%;
     }
     .input-envoit{
         font-size: 16px;
-        height: 15vh;
-        width: 25vw;
-        border-radius: 50%;
+        height: 100px;
+        width: 100px;
     }
     /* page projet */
     .projets_main h2{
@@ -589,7 +517,7 @@ footer{
 
 }
 /* Tablette */
-@media screen  and (min-width:768px ) and (max-width:1023px) {
+@media screen  and (min-width:768px ) and (max-width:1024px) {
     /* footer */
     footer{
         padding: 0 5%;
@@ -602,73 +530,40 @@ footer{
     }
     /*Page accueil */
     .Accueil_main{
-        align-items: center;
+        gap: 5%;
+        padding: 4em 2em;
     }
-    .Accueil_main-section1{
-        height: 45vh;
+    .Accueil_images{
+        height: 400px;
+        width: 400px;
     }
-    .Accueil_main-section1 img{
-        height: 45vh;
-        width: 30vw;
-        border-radius: 50%;
-    }
-    .Accueil_main-section2{
-        height: 45vh;
-    }
-    .Moi{
+    .Accueil_présentation{
         width: 100%;
         justify-content: space-between;
-        width: 55vw;
-        height: 15vh;
+    }
+    .Moi{
+        line-height: 25px;
+        gap: 0.5em;
+        width: 100%;
     }
     .Accueil_présentation-bouton{
-        width: 65%;
-    }
-    .button{
-        width: 10vw;
-    }
-    /* Page CV */
-    /* Formation */
-    .CV_main-section1{
+        list-style: none;
         justify-content: space-between;
-        height: 130vh;
+        width: 100%;
     }
-    /* kadea */
-    .F0{
-        justify-content: space-between;
-        height: 25vh;
-    }
-    .projet{
-        height: 15vh;
-        justify-content: space-between;
-    }
-    /* unikin L1 */
-    .F1{
-        justify-content: space-between;
-        height: 20vh;
-    }
-    /* unikin G3 */
-    .F3{
-        justify-content: space-between;
-        height: 15vh;
-    }
+    /* Page CV cfr pour la généralité (pour tout type d'écran) */
+
     /* page contact */
     .Contact_main{
         padding: 0 5%;
     }
-    /* cont navigation */
-    .cont{
-        width: 45vw;
-    }
-    /* formulaire */
-    /* formulaire message */
-    .Envoyer{
-        padding-top: 15%;
+    .message textarea{
+        height: 15vh;
     }
     .input-envoit{
         font-size: 16px;
-        height: 15vh;
-        width: 13vw;
+        height: 100px;
+        width: 100px;
     }
     /* page projet */
     .projets_main{

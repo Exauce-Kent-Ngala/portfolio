@@ -24,53 +24,52 @@
     </header>
     <!-- page contact -->
     <main class="Contact_main flex-row">
-        <!-- cont navigation -->
-        <div class="cont">
-            <nav class="Contact flex-column">
-                <h2>Contact</h2>
-                <ul class="Contact_liens flex-column">
-                    <li class="Contact_liens-li">Phone</li>
-                    <li><a href="tel: +243825460355">+243825460355</a></li>
-                    <li class="Contact_liens-li">Email</li>
-                    <li><a href="mailto:Kentngala05@gmail.com">Kentngala05@gmail.com</a></li>
-                </ul>
-            </nav>
-        </div>
+        <!-- contact section-->
+        <section class="contact-section flex-column">
+            <h2>Contact</h2>
+            <div class="Contact_liens flex-column">
+                <div>
+                    <p>Phone</p>
+                    <a href="tel: +243825460355">+243825460355</a>
+                </div>
+                <div>
+                    <p>Email</p>
+                    <a href="mailto:Kentngala05@gmail.com">Kentngala05@gmail.com</a>
+                </div>
+            </div>
+        </section>
         <!-- formulaire -->
-        <form class="formulaire" action="">
-            <!-- colonne1 -->
-            <div class="formulaire_col1 flex-column">
-                <!-- formulaire noms -->
-                <div class="nom flex-row">
-                    <div class="label-nom flex-column">
-                        <label for="nom">First Name</label>
-                        <input class="input" type="text" id="nom" name="nom">
-                    </div>
-                    <div class="label-nom flex-column">
-                        <label for="nom">Last Name</label>
-                        <input class="input" type="text" id="nom" name="nom">
-                    </div>
+        <form class="formulaire flex-column" action="">
+            <!-- formulaire noms et formulaire email -->
+            <div class="nom flex-row">
+                <div class="label-nom flex-column">
+                    <label for="nom">First Name</label>
+                    <input class="input" type="text" id="nom" name="nom">
                 </div>
-                <!-- formulaire email -->
-                <div class="nom flex-row">
-                    <div class="label-nom flex-column">
-                        <label for="email">Email</label>
-                        <input class="input" type="email" id="email" name="email">
-                    </div>
-                    <div class="label-nom flex-column">
-                        <label for="subject">Subject</label>
-                        <input class="input" type="text" id="subject" name="subject">
-                    </div>
+                <div class="label-nom flex-column">
+                    <label for="nom">Last Name</label>
+                    <input class="input" type="text" id="nom" name="nom">
                 </div>
-                <!-- formulaire message -->
-                <div class="nom flex-row">
-                    <div class="message flex-column">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="6" cols="0"></textarea>
-                    </div>
-                    <div class="Envoyer flex-column">
-                        <input class="input-envoit" type="submit" value="Envoyer">
-                    </div>
+            </div>
+            <!-- formulaire email -->
+            <div class="nom flex-row">
+                <div class="label-nom flex-column">
+                    <label for="email">Email</label>
+                    <input class="input" type="email" id="email" name="email">
+                </div>
+                <div class="label-nom flex-column">
+                    <label for="subject">Subject</label>
+                    <input class="input" type="text" id="subject" name="subject">
+                </div>
+            </div>
+            <!-- formulaire message -->
+            <div class="noms flex-row">
+                <div class="message flex-column">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6" cols="0"></textarea>
+                </div>
+                <div class="Envoyer flex-column">
+                    <input class="input-envoit" type="submit" value="Envoyer">
                 </div>
             </div>
         </form>
