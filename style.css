@@ -79,8 +79,10 @@ footer{
 }
 /*Page accueil */
 .Accueil_main{
+    align-items: center;
+    height: 100vh;
     gap: 10%;
-    padding: 4em 10em;
+    padding: 4em 12em;
 }
 .Accueil_images{
     height: 400px;
@@ -88,10 +90,12 @@ footer{
     border-radius: 50%;
 }
 .Accueil_présentation{
+    background-color: lightslategrey;
     width: 50%;
     justify-content: space-between;
 }
 .hello{
+    padding-bottom: 0.5em;
     font-size: 55px;
 }
 .Moi{
@@ -99,10 +103,14 @@ footer{
     gap: 1em;
     width: 65%;
 }
+.Moi p{
+    text-align: justify;
+}
 .Moi p span{
     font-weight: bolder;
 }
 .Accueil_présentation-bouton{
+    padding-top: 1.5em;
     list-style: none;
     justify-content: space-between;
     width: 65%;
@@ -219,6 +227,7 @@ footer{
 }
 /* page contact */
 .Contact_main{
+    height: 100vh;
     padding: 0 10%;
     justify-content: space-between;
 }
@@ -418,6 +427,7 @@ footer{
     }
     /*Page accueil */
     .Accueil_main{
+        height: auto;
         display: flex;
         flex-direction: column;
         padding: 4em 0;
@@ -436,6 +446,10 @@ footer{
     .Moi{
         padding-top: 2em;
         width: 100%;
+    }
+    .Moi p{
+        text-align: center;
+        padding: 0 4em;
     }
     .Accueil_présentation-bouton{
         width: 100%;
@@ -457,6 +471,7 @@ footer{
     }
     /* page contact */
     .Contact_main{
+        height: auto;
         display: flex;
         flex-direction: column;
     }
@@ -478,14 +493,17 @@ footer{
     }
     /* formulaire message */
     .noms{
+        display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     .message textarea{
-        width: 30vw;
+        width: auto;
         height: 15vh;
     }
     .Envoyer{
-        width: 30vw;
+        align-items: center;
+        width: auto;
     }
     .input-envoit{
         font-size: 16px;
